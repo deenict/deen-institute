@@ -1,0 +1,43 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  footer .address p, 
+  footer .info p {
+    font-size: small;
+    margin-bottom: 5px;
+    color: #51585e;
+  } 
+  
+  footer .social-media ul {
+    list-style-type: none;
+  }
+  
+  footer .social-media ul li a {
+    text-decoration: none;
+    color: #51585e;
+    font-size: small;
+  }
+  
+  footer .social-media ul li a:hover {
+    color: #000;
+  }
+  
+  footer .social-media ul li {
+    font-size: small;
+  }
+  
+  p, li {
+    font-size: 0.93rem;
+  }
+
+  p {
+    margin-bottom: 0.9rem;
+  }
+
+  .nav-link:hover {
+    font-weight: 500;
+  }
